@@ -1,10 +1,12 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Element from "./components/Element";
+import Introduction from "./components/Intro";
+import Body from "./components/Body";
 
 import "antd/dist/antd.css";
-import { Layout, Menu } from "antd";
+import { Layout, Collapse } from "antd";
 
+const { Panel } = Collapse;
 const { Header, Content, Footer, Sider } = Layout;
 
 function App() {
@@ -21,7 +23,18 @@ function App() {
           className="site-layout-background"
           style={{ padding: 24, textAlign: "center" }}
         >
-          <Element />
+          <Collapse defaultActiveKey={["1"]}>
+            <Panel header="Introduction" key="1">
+              <Introduction />
+            </Panel>
+            <Panel header="Body Paragraph 1" key="2">
+              <Introduction />
+            </Panel>
+            <Panel header="Body Paragraph 2" key="3">
+              <Introduction />
+            </Panel>
+          </Collapse>
+          ,
         </div>
       </Content>
       <Footer style={{ textAlign: "center", fontSize: "20px" }}>
