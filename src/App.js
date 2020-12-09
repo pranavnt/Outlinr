@@ -33,6 +33,12 @@ function App() {
             <Panel header="Body Paragraph 2" key="3">
               <Body />
             </Panel>
+            <Panel header="Body Paragraph 3" key="4">
+              <Body />
+            </Panel>
+            <Panel header="Conclusion" key="5">
+              <Body />
+            </Panel>
           </Collapse>
           ,
         </div>
