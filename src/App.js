@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import Introduction from "./components/Intro";
 import Body from "./components/Body";
+import Conclusion from "./components/Conclusion";
 
 import "antd/dist/antd.css";
 import { Layout, Collapse } from "antd";
@@ -37,7 +38,7 @@ function App() {
               <Body />
             </Panel>
             <Panel header="Conclusion" key="5">
-              <Body />
+              <Conclusion />
             </Panel>
           </Collapse>
           ,
