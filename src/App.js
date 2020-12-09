@@ -28,10 +28,10 @@ function App() {
               <Introduction />
             </Panel>
             <Panel header="Body Paragraph 1" key="2">
-              <Introduction />
+              <Body />
             </Panel>
             <Panel header="Body Paragraph 2" key="3">
-              <Introduction />
+              <Body />
             </Panel>
           </Collapse>
           ,
