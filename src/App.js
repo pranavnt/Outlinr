@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Introduction from "./components/Intro";
 import Body from "./components/Body";
@@ -8,7 +7,7 @@ import "antd/dist/antd.css";
 import { Layout, Collapse } from "antd";
 
 const { Panel } = Collapse;
-const { Header, Content, Footer, Sider } = Layout;
+const { Header, Content, Footer } = Layout;
 
 function App() {
   return (
