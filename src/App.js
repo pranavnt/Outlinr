@@ -7,7 +7,7 @@ import "antd/dist/antd.css";
 import { Layout, Collapse } from "antd";
 
 const { Panel } = Collapse;
-const { Header, Content, Footer } = Layout;
+const { Header, Content, Footer, Sider } = Layout;
 
 function App() {
   return (
